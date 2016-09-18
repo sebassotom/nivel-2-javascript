@@ -1,24 +1,21 @@
-var numeroA = prompt('Ingrese un número');
-var numeroB = prompt('Ingrese un número');
+var numeroA = parseInt(prompt('Ingrese un número'));
+var numeroB = parseInt(prompt('Ingrese un número'));
 
-var numA = parseInt (numeroA)
-var numB = parseInt (numeroB)
-
-	alert(numA + numB);
+	alert(numeroA + numeroB);
 
 
-var numeroC = prompt('Ingrese un número');
-var numeroD = prompt('Ingrese un número');
+var numeroC = parseInt(prompt('Ingrese un número'));
+var numeroD = parseInt(prompt('Ingrese un número'));
 
 	alert(numeroC - numeroD);
 
-var numeroE = prompt('Ingrese un número');
-var numeroF = prompt('Ingrese un número');
+var numeroE = parseInt(prompt('Ingrese un número'));
+var numeroF = parseInt(prompt('Ingrese un número'));
 
 	alert(numeroE * numeroF);
 
 
-var numeroG = prompt('Ingrese un número');
-var numeroH = prompt('Ingrese un número');
+var numeroG = parseInt(prompt('Ingrese un número'));
+var numeroH = parseInt(prompt('Ingrese un número'));
 
 	alert(numeroG / numeroH);
