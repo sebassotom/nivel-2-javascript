@@ -1,10 +1,10 @@
-var operandoA = prompt('Ingrese un número');
-var operandoB = prompt('Ingrese otro número');
+var operandoA = parseInt(prompt('Ingrese un número'));
+var operandoB = parseInt(prompt('Ingrese otro número'));
 var operacion = prompt('Ingrese el tipo de operacion que quiere realizar: sumar, restar, multiplicar ó dividir.');
 
 
 function sumar(operandoA, operandoB){
-	console.log(parseInt(operandoA) + parseInt(operandoB));
+	console.log(operandoA + operandoB);
 }
 
 function restar(operandoA, operandoB){
@@ -20,7 +20,7 @@ function dividir(operandoA, operandoB){
 }
 
 switch (operacion) {
-	case 'sumar', '+':
+	case 'sumar':
 	sumar(operandoA, operandoB);
 	break;
 
